@@ -1,0 +1,101 @@
+<html>
+<head>
+<script src="jquery.js"></script>
+
+<style>
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #EAEBEC;
+}
+
+table {
+  background: #3A4655;
+  width: 300px;
+  margin: auto;
+  min-height: 400px;
+  border: solid 1px #3A4655;
+  box-shadow: 0 8px 60px -7px black;
+}
+
+input {
+  background: #DCDCDC;
+  color: #000;
+  font-size: 25px;
+  font-style: bold;
+  width: 100%;
+  height: 100px;
+  text-align: right;
+}
+
+button {
+  width: 75px;
+  background: #425062;
+  color: #fff;
+  display: inline-block;
+  padding: 25px;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: -1px;
+  border-right: solid 2px #3C4857;
+  border-bottom: solid 2px #3C4857;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #E0B612;
+  transform: scale(1.1, 1.1);
+}
+
+</style>
+</head>
+
+<body>
+
+<table>
+<tr>
+  <td colspan="4"><input id="display" name="display" disabled></input></td>
+</tr>
+
+<tr>
+  <td><button id="button1" value="1">1</button></td>
+  <td><button id="button2" value="2">2</button></td>
+  <td><button id="button3" value="3">3</button></td>
+  <td><button id="addButton">+</button></td>
+</tr>
+<tr>
+  <td><button id="button4" value="4">4</button></td>
+  <td><button id="button5" value="5">5</button></td>
+  <td><button id="button6" value="6">6</button></td>
+  <td><button id="subtractButton">-</button></td>
+</tr>
+<tr>
+  <td><button id="button7" value="7">7</button></td>
+  <td><button id="button8" value="8">8</button></td>
+  <td><button id="button9" value="9">9</button></td>
+  <td><button id="multiplyButton">*</button></td>
+</tr>
+<tr>
+  <td><button id="clearButton">C</button></td>
+  <td><button id="button0" value="0">0</button></td>
+  <td><button id="equalsButton">=</button></td>
+  <td><button id="divideButton">/</button></td>
+</tr>
+
+
+
+</table>
+
+<span id='output'><!-- Use this span for writing debug messages or anything else you think will help! --></span>
+
+<script src="calc.js"></script>
+
+
+</body>
+
+
+
+</html>

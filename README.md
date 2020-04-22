@@ -22,7 +22,7 @@ Download calc.js and calc.html.
 
 Open up calc.html in your browser to use the calculator!
 
-*Please use Google Chrome when using the application. Other browsers will not work.*
+***Please use Google Chrome when using the application. Other browsers will not work.***
 
 I developed and tested the application using Windows 10. The performance on other operating systems may vary.
 

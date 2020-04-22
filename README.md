@@ -3,7 +3,7 @@ A four-function calculator application written in JavaScript, HTML, CSS and jQue
 This was my first time using these technologies to build a project, and I learned a lot along the way. 
 
 
-### Features
+## Features
 As you might expect, the calculator supports simple dyadic operations (such as 13 * 12), as well as longer expressions (4 + 17 * 5 - 2).
 
 In longer expressions, the calculator will display the current result after each dyadic expression, just as a regular pocket calculator would. For example, when (4 + 17 * 5 - 2) is put into the calculator, the calculator displays the intermediate results of 21 and 105 before displaying the final result of 103.
@@ -16,7 +16,7 @@ If the user has just completed an operation using the equals button, they can pr
 
 The clear button resets the calculator to its starting state.
 
-### How Can I Use the Application?
+## How Can I Use the Application?
 
 Download calc.js and calc.html.
 
